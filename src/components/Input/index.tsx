@@ -16,6 +16,7 @@ type InputProps = {
   icon?: string | React.ReactNode
   setValue?: (value: string) => void
   el_props?: ElProps
+  readOnly?: boolean
 }
 
 const Input: React.VoidFunctionComponent<InputProps> = React.memo(props => {

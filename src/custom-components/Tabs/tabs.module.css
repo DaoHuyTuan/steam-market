@@ -1,0 +1,16 @@
+.tabs {
+  flex-flow: row;
+}
+
+.tabItem {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 20px;
+  color: #383838;
+}
+.tabItem.active {
+  border-bottom: 2px solid #383838;
+  padding-bottom: 5px;
+  font-weight: bold;
+}

@@ -1,6 +1,7 @@
 body,
 html {
   margin: 0;
+  background-color: #f8f8f894;
 }
 html {
   font-family: 'Inter', 'system-ui';
@@ -10,4 +11,7 @@ html {
   html {
     font-family: 'Inter var', 'system-ui';
   }
+}
+* {
+  box-sizing: border-box;
 }

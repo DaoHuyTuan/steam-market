@@ -4,5 +4,10 @@
 
 .appTitle {
   font-size: 36px;
-  font-weight: bold;
+  font-weight: 900;
+  margin-bottom: 24px;
+}
+
+.switchContents {
+  padding-top: 20px;
 }

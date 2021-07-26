@@ -30,8 +30,13 @@ const getLocalStorage = (data: Array<string> | string) => {
     })
     return result
   } else {
-    if (typeof data === 'string' && data === 'all') {
-      return (result = window.localStorage)
+    if (typeof data === 'string') {
+      if (data === 'all') {
+        return (result = window.localStorage)
+      } else {
+        const result = localStorage.getItem(data) || ''
+        return result ? JSON.parse(result) : ''
+      }
     }
   }
 }
